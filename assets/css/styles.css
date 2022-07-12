@@ -1,0 +1,58 @@
+/*Nav Bar Custom Styling */
+.navbar {
+    height: 100px;
+}
+
+
+/* Home Page Carousal Styling */
+
+.container-fluid a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px; 
+}
+.navbar-nav a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 750px;
+    opacity: 2;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 30%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: white;
+}
+
+.carousel-caption h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.btn-min-block {
+    min-width: 170px;
+    line-height: 26px;
+}
+
+.btn-theme {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+    margin-right: 15px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.btn-theme:hover {
+    color: #fff;
+    background-color: white;
+    border-color: #fff;
+}
