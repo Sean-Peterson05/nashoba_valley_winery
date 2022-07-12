@@ -4,6 +4,17 @@
 }
 
 
+#shopping-cart-icon {
+    padding-top: 35px;
+    padding-left: 35px;
+}
+#shopping-cart-icon .text{
+    visibility: hidden;
+}
+
+#shopping-cart-icon:hover .text {
+    visibility: visible;
+}
 /* Home Page Carousal Styling */
 
 .container-fluid a {
@@ -12,7 +23,7 @@
 }
 .navbar-nav a {
     font-family: "Open Sans", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .carousel-inner img {
@@ -55,4 +66,35 @@
     color: #fff;
     background-color: white;
     border-color: #fff;
+}
+
+/*Our Story Formatting */
+#our-story-content img {
+    padding-top: 25px;
+    float :left;
+}
+#our-story-content h1 {
+    float: left;
+    padding-top: 25px;
+    padding-left: 50px;
+}
+#our-story-content p {
+    float: none;
+    padding-top: 100px;
+    padding-left: 600px;
+}
+
+/* Social Media Content */
+#socials {
+    padding-left: 560px;
+}  
+
+#socials ul{
+    list-style: none;
+    padding-top: 15px;
+}  
+
+#socials li {
+    display: inline;
+    padding: 5px;
 }
