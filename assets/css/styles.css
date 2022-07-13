@@ -62,11 +62,12 @@
     font-family: "Open Sans", sans-serif;
 }
 
-.btn-theme:hover {
+/*.btn-theme:hover {
     color: #fff;
     background-color: white;
     border-color: #fff;
-}
+    text-emphasis-color: black;
+}*/
 
 /*Our Story Formatting */
 #our-story-content img {
@@ -98,3 +99,48 @@
     display: inline;
     padding: 5px;
 }
+
+/*Wine Selection Styling */
+
+/*Header Content */
+#wine-selection-title h1 {
+    padding-top: 50px;
+    text-align: center;
+    font-family: sans-serif;
+}
+#wine-selection-title h6 {
+    padding-left: 400px;
+    padding-right: 400px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/*Wine Portfolio Cards */
+
+.col {
+    height: 750px;
+} 
+.col img {
+    max-width: 50%;
+    max-height: 50%;
+    
+}
+
+/*Login Page */ 
+
+/* Input box */
+input[type=text] {
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    height: 35px;
+  }
+
+  /* Login Form */
+  #login-form {
+    width: 40%;
+  }
+
+  /*Registration Form */ 
+  
