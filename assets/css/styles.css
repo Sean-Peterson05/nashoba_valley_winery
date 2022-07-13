@@ -143,4 +143,39 @@ input[type=text] {
   }
 
   /*Registration Form */ 
+
+
+  /* Contact Page */
   
+  /* Tours page */ 
+
+  /* Header Content Class */
+  #header-content-tour h1 {
+    padding-top: 50px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+  #header-content-tour h6 {
+    padding-left: 400px;
+    padding-right: 400px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+  #header-content-tour h3 {
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+  #header-content-tour p {
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+  #header-content-tour img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
