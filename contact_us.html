@@ -65,21 +65,20 @@
                                 <u>555-555-5555</u></p>
                                 <br>
 
-                <form>
+                <form action="confirm_page_contactus.html" method="get">
 
                     <div class="form-outline mb-4">
-                    <input type="email" id="form3Example3cg" class="form-control form-control-lg" required pattern="@">
+                    <input type="email" id="form3Example3cg" class="form-control form-control-lg" required>
                     <label class="form-label" for="form3Example3cg">Your Email</label>
                     </div>
 
                     <div class="form-outline mb-4">
-                    <input type="textarea" id="comment" class="form-control form-control-lg">
+                    <input type="textarea" id="comment" class="form-control form-control-lg" required>
                     <label class="form-label" for="comment">Message Content</label>
                     </div>
 
                     <div class="d-flex justify-content-center">
-                    <button type="button" onclick="location.href='confirm_page_contactus.html'"
-                        class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Send</button>
+                      <input type = "submit" value="Send">
                     </div>
 
                 </form>

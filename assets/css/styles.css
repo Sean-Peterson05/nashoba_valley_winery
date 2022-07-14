@@ -109,8 +109,8 @@
     font-family: sans-serif;
 }
 #wine-selection-title h6 {
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 300px;
+    padding-right: 300px;
     text-align: center;
     font-family: sans-serif;
 }
@@ -122,8 +122,15 @@
 } 
 .col img {
     max-width: 50%;
-    max-height: 50%;
-    
+    height: 325px;   
+}
+
+.card-text {
+    height:175px;
+}
+.card-body #price {
+    height: 25px;
+    padding-top: 10px;
 }
 
 /*Login Page */ 
