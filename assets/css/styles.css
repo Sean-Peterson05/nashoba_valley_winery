@@ -1,20 +1,8 @@
-/*Nav Bar Custom Styling */
+/* Shopping Cart text hover */
 .navbar {
-    height: 100px;
+    background-color: white;
 }
 
-
-#shopping-cart-icon {
-    padding-top: 35px;
-    padding-left: 35px;
-}
-#shopping-cart-icon .text{
-    visibility: hidden;
-}
-
-#shopping-cart-icon:hover .text {
-    visibility: visible;
-}
 /* Home Page Carousal Styling */
 
 .container-fluid a {
@@ -62,12 +50,6 @@
     font-family: "Open Sans", sans-serif;
 }
 
-/*.btn-theme:hover {
-    color: #fff;
-    background-color: white;
-    border-color: #fff;
-    text-emphasis-color: black;
-}*/
 
 /*Our Story Formatting */
 #our-story-content img {
